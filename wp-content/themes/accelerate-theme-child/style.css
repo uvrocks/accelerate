@@ -12,7 +12,17 @@
 
 @import url("../accelerate-theme/style.css");
 
-body {
-	background: red;
-	
+/* Homepage Styles */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+/* Navigation Styles */
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
 }
