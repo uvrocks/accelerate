@@ -105,3 +105,33 @@ article.case-study {
 	margin-top: 70px;
 }
 
+
+/* Contact Form Styles */
+
+/*div.textbox-wrap, div.email-wrap {
+	background-color: red;
+	width: 45%;
+	display:inline-block;
+	float:left;
+
+}*/
+
+#nf-field-1-wrap, #nf-field-2-wrap {
+	width: 45%;
+	display: inline;
+	float: left;
+	background-color: red;
+	
+}
+
+#nf-field-3-wrap {
+	clear:left;
+}
+
+div.nf-field-label label{
+	font-weight: normal;
+	font-size: 10px;
+	
+}
+
+
