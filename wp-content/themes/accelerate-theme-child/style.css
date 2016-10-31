@@ -108,30 +108,37 @@ article.case-study {
 
 /* Contact Form Styles */
 
-/*div.textbox-wrap, div.email-wrap {
-	background-color: red;
-	width: 45%;
-	display:inline-block;
-	float:left;
+.nf-form-title {
+  display: none;
+}
 
-}*/
-
-#nf-field-1-wrap, #nf-field-2-wrap {
-	width: 45%;
-	display: inline;
+.nf-field-container.textbox-container.label-above,
+.nf-field-container.email-container.label-above {
+	width: 49%;
+	display: block;
 	float: left;
-	background-color: red;
+	clear: initial;	
+}
+
+.nf-field-container.email-container.label-above {
+	margin-left: 2%;
 	
 }
 
-#nf-field-3-wrap {
-	clear:left;
-}
-
-div.nf-field-label label{
+div.nf-field-label label {
 	font-weight: normal;
 	font-size: 10px;
 	
+}
+
+#nf-field-4 {
+  float: right;
+  color: #FFF;
+  font-family: 'Montserrat', serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #45AC9D;
+  padding: 15px 80px;
 }
 
 
