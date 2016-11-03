@@ -25,6 +25,7 @@
  * @since Accelerate Marketing 1.0
  */
 
+/**Case Studies Custom Post Type*/
 function create_custom_post_types() {
     register_post_type( 'case_studies',
         array(
@@ -37,5 +38,8 @@ function create_custom_post_types() {
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
+
 }
 add_action( 'init', 'create_custom_post_types' );
+
+

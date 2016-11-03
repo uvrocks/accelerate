@@ -14,7 +14,7 @@ get_header(); ?>
 				$services = get_field('services');
 				$link = get_field('site_link');
 				$image_1 = get_field('image_1'); 
-				$size = "full";?>
+				$size = "medium";?>
 				
 		<article class="case-study">				
 			<aside class="case-study-sidebar">
