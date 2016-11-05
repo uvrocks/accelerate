@@ -118,11 +118,53 @@ article.case-study {
 	margin-top: 70px;
 }
 
-/* Our Services Styles */
+/* About Page Styles */
+
+div.tagline {
+	text-align: center;
+}
+div.service {
+	padding: 15px;
+}
+
+.individual-service h5 {
+	clear: none;
+}
+
+div.individual-service {
+	background-color: red;
+	padding: 25px;
+}
+
+.right img {
+	float: right;
+	padding-left: 25px;
+	
+}
+
+.left img {
+	float: left;
+	padding-right: 25px;
+}
 
 
 
+.contact-bar {
+	border-top: 1px dotted #e3e1e1;
+	height: 60px;		
+}
 
+.contact-bar a {
+	padding: 10px 50px;
+	margin-left: 50px;
+}
+
+
+
+/*background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);*/
+
+
+ 
 
 /* Contact Form Styles */
 
@@ -147,7 +189,7 @@ article.case-study {
 	
 }
 
-div.nf-field-label label {
+.nf-field-label label {
 	font-weight: normal;
 	font-size: 10px;
 	
