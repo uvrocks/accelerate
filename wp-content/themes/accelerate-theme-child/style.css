@@ -120,26 +120,35 @@ article.case-study {
 
 /* About Page Styles */
 
-div.tagline {
+/*div.about-header {
+	background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+div.header-content {
+	color: white;
+}*/
+
+div.sub-header {
 	text-align: center;
 }
 div.service {
-	padding: 15px;
+	padding: 15px 0px;
 }
 
 .individual-service h5 {
 	clear: none;
+	margin-top: 0px;
 }
 
 div.individual-service {
-	background-color: red;
-	padding: 25px;
+	padding: 25px 0px;
+	margin: 0px 90px;
 }
 
 .right img {
 	float: right;
 	padding-left: 25px;
-	
+
 }
 
 .left img {
@@ -147,24 +156,30 @@ div.individual-service {
 	padding-right: 25px;
 }
 
+.page-content {
+	
+}
 
-
-.contact-bar {
+.contact-wrap {
+	text-align:center;
 	border-top: 1px dotted #e3e1e1;
-	height: 60px;		
 }
 
-.contact-bar a {
-	padding: 10px 50px;
-	margin-left: 50px;
+.contact-wrap h5 {
+	margin-top: 50px;
 }
 
+.about-contact, .about-button {
+	display: inline-block;
+}
 
+.about-button {
+	padding-left: 35px;
+}
 
-/*background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);*/
-
-
- 
+.about-button a {
+	padding: 15px 50px;
+}
 
 /* Contact Form Styles */
 
